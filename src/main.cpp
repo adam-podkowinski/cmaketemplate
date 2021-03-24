@@ -1,26 +1,15 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 
-class Hello {
- public:
-  int potenznyinteger = 10;
-
- private:
-  std::string justFuckingTryToAccess = "Hello";
-
- public:
-  std::string hello;
-
- protected:
-  std::string lol = "Gi";
-};
+#include "BUBLIB/bublib.h"
 
 int main() {
   Hello hello = Hello();
   std::cout << hello.potenznyinteger;
+  bublibhello();
 
   sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-  sf::CircleShape shape(50.f);
+  sf::CircleShape shape(200.f);
   shape.setFillColor(sf::Color::Green);
 
   while (window.isOpen()) {
