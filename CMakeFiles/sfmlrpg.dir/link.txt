@@ -1,0 +1,1 @@
+/usr/bin/clang++ -rdynamic CMakeFiles/sfmlrpg.dir/src/main.cpp.o -o sfmlrpg  -Wl,-rpath,/home/bodzio/programming/cpp/sfmlprojects/sfmlrpg/lib/SFML-2.5.1/lib lib/SFML-2.5.1/lib/libsfml-graphics.so.2.5.1 lib/SFML-2.5.1/lib/libsfml-audio.so.2.5.1 lib/SFML-2.5.1/lib/libsfml-window.so.2.5.1 lib/SFML-2.5.1/lib/libsfml-system.so.2.5.1 
