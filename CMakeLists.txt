@@ -4,8 +4,8 @@ project(myproject)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 set(
-	SRC_FILES
-	src/main.cpp
+  SRC_FILES
+  src/main.cpp
 	)
 
 include_directories(include/)
