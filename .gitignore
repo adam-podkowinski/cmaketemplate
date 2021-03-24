@@ -3,3 +3,4 @@ Makefile
 build/
 CMakeFiles/
 lib/*
+compile_commands.json
